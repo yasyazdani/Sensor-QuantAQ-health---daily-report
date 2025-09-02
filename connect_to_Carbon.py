@@ -1,4 +1,4 @@
-# Connecting to Carbon from local computer using your username and password
+# Connecting to Carbon from your local computer using your username and password
 
 
 #!/usr/bin/env python3
@@ -29,7 +29,7 @@ def interactive_shell(chan):
 def main():
     host = "carbon.atmosp.physics.utoronto.ca"
     port = 2222
-    default_user = " " # insert your username inside ""
+    default_user = "" # write your username here
 
     user = input(f"Username [{default_user}]: ").strip() or default_user
     password = getpass.getpass(f"Password for {user}@{host}: ")
