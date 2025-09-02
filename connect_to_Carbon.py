@@ -1,4 +1,4 @@
-# Connecting to Carbon from your local computer using your username and password
+# Coneccting to Carbon from your local computer using your username and password
 
 
 #!/usr/bin/env python3
